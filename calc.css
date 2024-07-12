@@ -10,7 +10,7 @@
 
 
 body{
-    width: 100%;
+   width: 100%;
    height: 100vh;
    display: flex;
    justify-content: center;
@@ -27,16 +27,16 @@ input{
    padding: 24px;
    margin: 10px;
    background: transparent;
-   box-shadow: 0px 3px 15px rgba(255, 252, 252, 0.724);
+   box-shadow: 0px 3px 15px rgba(3, 247, 255, 0.724);
    font-size: 40px;
    text-align: right;
    cursor: pointer;
-   color: #00fdf1;
+   color: #dddddd;
 }
 
 
 input::placeholder{
-   color: #04ffff;
+   color: #00ffff;
 }
 
 
@@ -47,10 +47,10 @@ button{
    margin: 10px;
    border-radius: 50%;
    background: transparent;
-   color: #ffebeb;
+   color: #00dbf8;
    font-size: 20px;
-   box-shadow: inset 4px 4px 10px rgba(176, 176, 176, 0.534) ,
-   inset -8px -8px 15px rgba(163, 163, 163, 0.486);
+   box-shadow: inset 4px 4px 10px rgba(255, 249, 249, 0.534) ,
+   inset -8px -8px 15px rgba(255, 245, 245, 0.486);
    cursor: pointer;
    transition: all 0.3s;
 }
@@ -64,15 +64,11 @@ button:active{
 
 
 .equalBtn{
-   background-color: #0fdfdf;
-   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.715);
+   background-color: #02f1f1;
+   box-shadow: inset 5px 5px 5px rgba(255, 255, 255, 0.715);
 }
 
 
 .operator{
-   color: #00eeff;
+   color: #f8f8f8;
 }
-
-
-
-
